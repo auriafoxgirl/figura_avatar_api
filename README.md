@@ -37,8 +37,9 @@ set local avatar:
 avatar.set( avatar_dir )
 ```
 requires: string that is: path to folder or zip of figura avatar (ex. "myAvatar.zip")
+
 returns: **nil**
 
 
 
-used template: https://github.com/Kingdom-of-Moon/Figura-Entrypoint-Example
+template used to make this mod: https://github.com/Kingdom-of-Moon/Figura-Entrypoint-Example
