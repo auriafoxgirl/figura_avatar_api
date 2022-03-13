@@ -1,0 +1,10 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.blancworks.figura_avatar_api.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

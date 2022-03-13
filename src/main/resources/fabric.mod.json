@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "figura_avatar_api",
+  "version": "${version}",
+
+  "name": "Figura Avatar api",
+  "description": "Extention for Figura mod that allow to change avatar, upload it to backend with script.",
+  "authors": [
+    "dragekk"
+  ],
+  "contact": {
+    "sources": "https://github.com/dragekk/figura_avatar_api"
+  },
+  "license": "LGPL-2.1",
+  "icon": "assets/figura_avatar_api/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "figura": [
+      "net.blancworks.figura_avatar_api.avatarAPI"
+    ]
+  },
+  "mixins": [
+    "avatar_api.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": "*",
+    "minecraft": ">=1.17",
+    "java": ">=16",
+    "figura": ">=0.0.8-"
+  }
+}
